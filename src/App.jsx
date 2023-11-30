@@ -41,15 +41,15 @@ const App = () => {
               </li>
             </ul>
             <form className="d-flex" role="search">
-              <input
-                className="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button className="btn btn-dark" type="submit">
-                Search
-              </button>
+              <div className="text-end">
+                <button 
+                  type="button" 
+                  className="btn btn-outline-light me-2"
+                >
+                    Login
+                </button>
+                <button type="button" className="btn btn-info">Sign-up</button>
+              </div>
             </form>
           </div>
         </div>
@@ -57,14 +57,14 @@ const App = () => {
 
       <div className='container p-5'>
         <div className='row'  style={{ justifyContent: 'center', alignItems: 'center'}}>
-          <div className='col-7'>
-            <div style={{fontSize: '60px', fontWeight: 'bold'}}>HEY DEVELOPERS ..!</div>
-            <div style={{fontSize: '30px'}}>Conoce los nuevos curso RollingCode!</div>
-            <button className='btn btn-primary btn-lg mt-4'>VER MAS</button>
-          </div>
-          <div className='col-5'>
-            <img src={hero} alt="header image" width={500}/>
-          </div>
+            <div className='col-7'>
+                <div style={{fontSize: '60px', fontWeight: 'bold'}}>RollingCode</div>
+                <div style={{fontSize: '30px'}}>Curso de React Avanzado!</div>
+                <button className='btn btn-primary btn-lg mt-4'>VER MAS</button>
+            </div>
+            <div className='col-5'>
+                <img src={hero} alt="header image" width={500}/>
+            </div>
         </div>
       </div>
 
