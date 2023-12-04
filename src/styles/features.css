@@ -40,4 +40,13 @@
     margin-top: .5rem;
 
   }
+  .hero-image img{
+    width: 200px;
+  }
+}
+
+@media all and (min-width: 768px){
+  .hero-image img{
+    width: 500px;
+  }
 }
