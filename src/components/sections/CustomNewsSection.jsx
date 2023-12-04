@@ -3,7 +3,11 @@ import { News } from "../../data/Novedades.js";
 
 export const CustomNewsSection = ({ isLoginUser }) => {
   if (!isLoginUser) {
-    return <h1 className="text-center " >Tienes que estar logueado para poder ver las novedades</h1>;
+    return (
+      <h1 className="text-center not-logged-in">
+        Tienes que estar logueado para poder ver las novedades
+      </h1>
+    );
   } else {
     return (
       <div
