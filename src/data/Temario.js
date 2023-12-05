@@ -1,4 +1,4 @@
-[
+export const temario=[
     {
         "id": 1,
         "title": "Composicion",

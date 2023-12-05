@@ -31,22 +31,20 @@
   height: 3rem;
 }
 
-
-@media all and (min-width: 390px){
-  .not-logged-in{
+@media all and (min-width: 390px) {
+  .not-logged-in {
     font-size: 1.4rem;
     padding: 1rem;
     font-weight: 700;
-    margin-top: .5rem;
-
+    margin-top: 0.5rem;
   }
-  .hero-image img{
+  .hero-image img {
     width: 200px;
   }
 }
 
-@media all and (min-width: 768px){
-  .hero-image img{
+@media all and (min-width: 768px) {
+  .hero-image img {
     width: 500px;
   }
 }

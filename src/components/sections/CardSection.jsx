@@ -5,9 +5,7 @@ export const CardSection = ({ news }) => {
         <div className="feature col " key={item.id}>
           <h3 className="fs-2">{item.title}</h3>
           <p>{item.description}</p>
-          <a href="#" className="text-info">
-            Call to action
-          </a>
+          <a href="#" className="text-info"></a>
         </div>
       ))}
     </div>

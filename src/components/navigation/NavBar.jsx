@@ -29,10 +29,9 @@ export const NavBar = ({ onClick,isLoginUser }) => {
             >
               {isLoginUser ? "Logout" : "Login"}
               
-
             </button>
             {
-              !isLoginUser ? <button type="button" className="btn btn-info" onClick={onClick}>Registrarse</button> : null
+              !isLoginUser ? <button type="button" className="btn btn-info" >Registrarse</button> : null
             }
             
           </div>

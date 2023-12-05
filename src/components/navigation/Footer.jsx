@@ -1,7 +1,10 @@
 import { FormFooter } from "./FormFooter";
 import { MenuFooter } from "./MenuFooter";
 
+
 export const Footer = () => {
+  
+
   return (
     <footer className="py-5 px-5 bg-white container">
       <div className="row">

@@ -1,7 +1,10 @@
 import { CardSection } from "./cardSection";
 import { News } from "../../data/Novedades.js";
 
+
+
 export const CustomNewsSection = ({ isLoginUser }) => {
+ 
   if (!isLoginUser) {
     return (
       <h1 className="text-center not-logged-in">
@@ -9,6 +12,9 @@ export const CustomNewsSection = ({ isLoginUser }) => {
       </h1>
     );
   } else {
+
+   
+
     return (
       <div
         className="px-4 py-5 "
@@ -20,7 +26,7 @@ export const CustomNewsSection = ({ isLoginUser }) => {
           <CardSection />
 
           <h2 className="pb-2 border-bottom pt-5 ">CURSOS</h2>
-          <CardSection news={News} />
+          <CardSection news={News}   />
         </div>
       </div>
     );
